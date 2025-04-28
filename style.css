@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    color: silver;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: silver;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+h4 {
+    color: gold;
+    text-align: left;
+    background-color: lightgoldenrodyellow;
+    width: 200px;
+
+}
+p {
+    color: silver;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+
+h5 { 
+   text-align: right;
+}
