@@ -1,24 +1,39 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anotações</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <p><a href="https://www.canva.com/">&#10133</a></p>
- 
+    <button id="myBtn">&#10133</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="uploadPrompt" style="cursor: pointer;">Envie a sua foto aqui! &#x2B06</p>
+            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+        </div>
+
+    </div>
+
     <h1>Título</h1>
 
-    <p>28 de abril 10:56 l   0 caractere </p>
+    <p>28 de abril 10:56 l 0 caractere</p>
 
     <h3>Comece a escrever</h3>
 
-
-   
     <h4>&#10868 Criar um mapa mental</h4>
 
+    <div id="imageContainer"></div>
 
-
+    <script src="script.js"></script>
 </body>
+
 </html>
